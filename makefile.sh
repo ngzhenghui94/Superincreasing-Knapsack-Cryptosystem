@@ -1,0 +1,1 @@
+g++ -std=c++11 knapsack/knapsack.cpp -o knapsack

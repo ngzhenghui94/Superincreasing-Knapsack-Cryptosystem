@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="knapsack"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="knapsack">
+				<Option output="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/knapsack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/."/>
+					<Add directory="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/knapsack"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 knapsack"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="knapsack/fast">
+				<Option output="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/knapsack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/."/>
+					<Add directory="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/knapsack"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 knapsack/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/knapsack/knapsack.cpp">
+			<Option target="knapsack"/>
+		</Unit>
+		<Unit filename="C:/Users/Zhenghui/Google Drive/XPS 13/2020 Sem 1 Cryptography and Secure Application/CSCI361/Assignment 2/knapsack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
